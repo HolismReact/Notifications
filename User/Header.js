@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { app } from '@Panel';
 import { HeaderAction } from '@Panel';
-import NotificationsIcon from '@material-ui/icons/Notifications';
+import NotificationsIcon from '@mui/icons-material/Notifications';
 
 let notifs = [];
 
