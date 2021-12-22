@@ -15,7 +15,7 @@ const itemActions = (item) => {
 const Notifications = () => {
     return <List
         title="Notifications"
-        entity='notification'
+        entityType='notification'
         // listActions={listActions}
         //filters={filters}
         //sorts={sorts}
