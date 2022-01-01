@@ -18,7 +18,7 @@ const Notifications = () => {
         return () => {
             app.unsubscribe('notifications');
         }
-    }, []);
+    }, [notifs]);
 
     useEffect(() => {
         console.log(notifs);
