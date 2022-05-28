@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
+import NotificationsIcon from '@mui/icons-material/Notifications';
 import { app } from '@Panel';
 import { HeaderAction } from '@Panel';
-import NotificationsIcon from '@mui/icons-material/Notifications';
 
 let notifs = [];
 
@@ -21,7 +21,7 @@ const Notifications = () => {
     }, [notifs]);
 
     useEffect(() => {
-        console.log(notifs);
+        // console.log(notifs);
     }, [notifs]);
 
     return <div className="fixed top-16 right-10 bg-white px-5 rounded-md">
